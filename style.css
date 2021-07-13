@@ -1,0 +1,118 @@
+/* ------Google fonts----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&display=swap');
+/* ----------------Common styles------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    position: relative;
+width: 1440px;
+height: 3750px;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(74, 12, 155);
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.container-halfwidth{
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.container-halfwidth img{
+    width: 85%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+/* -------Copa and Uero---- */
+
+h1{
+    position: absolute;
+    width: 485px;
+    height: 200px;
+    left: 150px;
+    top: 100px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: white;
+}
+a{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px;
+    position: absolute;
+    width: 168px;
+    height: 44px;
+    left: 140px;
+    top: 400px;
+    color: white;
+    background: #E02C6D;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+/* a:hover{
+    color: #6b2ce0;
+    background: #5c2ce0);
+    box-shadow: 0 0 10px #FBB917, 0 0 30px #E2A76F, 0 0 50px #FBB917;
+    transition-delay: 1s;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+    margin-top: 5px;
+} */
+/* ----Player about---- */
+/* .Container-player{
+    margin-left: 180px;
+} */
+.player-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    margin-top: 85px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.player .player-banner img{
+    width: 310px;
+    height: 256px;
+}
+.player{
+    padding: 15px;
+    position: relative;
+    align-items: center;
+    width: 330px;
+    /* height: 474px; */
+    margin-bottom: 27px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+}
+/* footer----- */
+p{
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .fab{
+    background: tomato;
+    color: cyan;
+    font-size: 80px;
+}
+.fa-facebook{
+    color: skyblue
+} */
+
+
