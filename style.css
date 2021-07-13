@@ -99,6 +99,83 @@ a{
     background: #FFFFFF;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
 }
+/* -----Login form */
+.login-container{
+    width: 50%;
+    height: 500px;
+    font-family: sans-serif;
+    background: rgb(104, 23, 158);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.box{
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+}
+.inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.front-side{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(#6b9dc7da, rgb(99, 68, 170)), url(back.jpg);
+    padding: 55px;
+    box-sizing: border-box;
+}
+.box h2{
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#email{
+    width: 100%;
+    background: rgba(245, 250, 250, 0.87);
+    border: 2px solid #fff;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#password{
+    width: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+button{
+    width: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    margin: 30px 0 15px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+}
 /* footer----- */
 p{
     font-weight: 800;
