@@ -6,8 +6,8 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
     position: relative;
-width: 1440px;
-height: 3750px;
+    width: 1440px;
+    height: 3750px;
 }
 main{
     margin: 0;
@@ -15,7 +15,7 @@ main{
 }
 .container{
     background-color: rgb(74, 12, 155);
-    width: 100%;
+    width: 110%;
     height: 550px;
     display: flex;
 }
@@ -26,9 +26,11 @@ main{
     padding-right: 5%;
 }
 .container-halfwidth img{
-    width: 85%;
-    margin-left: 15%;
-    margin-top: 15%;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
 }
 /* -------Copa and Uero---- */
 
@@ -45,14 +47,14 @@ h1{
     line-height: 80px;
     color: white;
 }
-a{
+.button{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 10px 20px;
     position: absolute;
     width: 168px;
-    height: 44px;
+    height: 40px;
     left: 140px;
     top: 400px;
     color: white;
@@ -63,20 +65,41 @@ a{
     overflow: hidden;
     transition: 0.5s;
 }
-/* a:hover{
+a:hover{
     color: #6b2ce0;
-    background: #5c2ce0);
+    background: #cbbfeb;
     box-shadow: 0 0 10px #FBB917, 0 0 30px #E2A76F, 0 0 50px #FBB917;
     transition-delay: 1s;
 }
 .fa-arrow-right{
     margin-left: 10px;
     margin-top: 5px;
-} */
+}
+/* ------2021 animation-- */
+.word-typing{
+    position: relative;
+}
+.word-typing::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(112, 19, 155);
+    border-left: 1px solid rgba(88, 30, 105, 0.918);
+    animation: typing 1.5s steps(5) infinite;
+}
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
 /* ----Player about---- */
-/* .Container-player{
+.Container-player{
     margin-left: 180px;
-} */
+}
 .player-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -109,7 +132,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 25%;
 }
 .box{
     width: 350px;
@@ -177,19 +200,53 @@ button{
     color: #fff;
 }
 /* footer----- */
+.footer-side{
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 1440px;
+    background-color: white;
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+
+
+.footer-banner{
+    width: 30%;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 p{
     font-weight: 800;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-/* .fab{
-    background: tomato;
-    color: cyan;
-    font-size: 80px;
+/* -----social-icon--- */
+.fab{
+    color: rgba(0, 0, 0, 0.26)
 }
-.fa-facebook{
-    color: skyblue
-} */
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-items{
+    list-style: none;
+}
+.social-items a{
+    padding: 5px 14px;
+}
+/* ----copyright icon--- */
+.fa-copyright{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 
 
