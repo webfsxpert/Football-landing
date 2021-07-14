@@ -247,6 +247,43 @@ p{
     padding-left: 5px;
     padding-right: 5px;
 }
+/* -----Media quaries----- */
+/* --------mobile device------- */
+@media only screen and (max-width) {
+    .container{
+        width: 360px;
+        height: 695px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .container-halfwidth{
+        height: 138px;
+        width: 278px;
+        left: 16px;
+        top: 112px;
+    }
+    .player-list{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+    
+}
+-----tablet devies----
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .Container-player{
+        width: 400px;
+        height: 695px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .player-list{
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        margin-left: 0px;
+    }
+}
 
 
 
